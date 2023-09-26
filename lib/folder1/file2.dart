@@ -23,6 +23,8 @@ class ColorfulCard extends StatelessWidget {
 }
 
 class ProductList extends StatelessWidget {
+  const ProductList({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
@@ -42,6 +44,8 @@ class ProductList extends StatelessWidget {
 }
 
 class UserProfileAvatar extends StatelessWidget {
+  const UserProfileAvatar({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const CircleAvatar(
@@ -52,6 +56,8 @@ class UserProfileAvatar extends StatelessWidget {
 }
 
 class CustomTextField extends StatelessWidget {
+  const CustomTextField({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const TextField(
