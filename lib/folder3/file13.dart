@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomAnimatedButton extends StatefulWidget {
+class
+CustomAnimatedButton extends StatefulWidget {
   const CustomAnimatedButton({super.key});
 
   @override
