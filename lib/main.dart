@@ -2,6 +2,8 @@ import 'package:assignment4_mad/folder1/file1.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'navigation.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -19,7 +21,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FirstRoute(),
+      home: TodosScreen(
+        todo: List.generate(
+          20,
+          (index) => Todo("Todo $index",
+              "A description of what needs to be done for Todo $index"),
+        ),
+      ),
     );
   }
 }
