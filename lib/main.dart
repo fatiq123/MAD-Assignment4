@@ -8,6 +8,7 @@ import 'package:assignment4_mad/switch_checkbox_widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'alert_dialog.dart';
 import 'navigation.dart';
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SwitchWidget()
+      home: AlertDialogWidget()
       /*TodosScreen(
         todo: List.generate(
           20,
