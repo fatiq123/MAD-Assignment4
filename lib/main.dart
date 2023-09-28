@@ -3,6 +3,7 @@ import 'package:assignment4_mad/card.dart';
 import 'package:assignment4_mad/column.dart';
 import 'package:assignment4_mad/container.dart';
 import 'package:assignment4_mad/folder1/file1.dart';
+import 'package:assignment4_mad/gesture_dectector.dart';
 import 'package:assignment4_mad/row.dart';
 import 'package:assignment4_mad/switch_checkbox_widgets.dart';
 import 'package:flutter/cupertino.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AlertDialogWidget()
+      home: GestureDetectorWidget()
       /*TodosScreen(
         todo: List.generate(
           20,
