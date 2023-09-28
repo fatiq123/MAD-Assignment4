@@ -2,6 +2,7 @@ import 'package:assignment4_mad/ListView.dart';
 import 'package:assignment4_mad/card.dart';
 import 'package:assignment4_mad/column.dart';
 import 'package:assignment4_mad/container.dart';
+import 'package:assignment4_mad/expanded.dart';
 import 'package:assignment4_mad/folder1/file1.dart';
 import 'package:assignment4_mad/gesture_dectector.dart';
 import 'package:assignment4_mad/row.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GestureDetectorWidget()
+      home: ExpandedWidget()
       /*TodosScreen(
         todo: List.generate(
           20,
