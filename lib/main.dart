@@ -8,6 +8,7 @@ import 'package:assignment4_mad/gesture_dectector.dart';
 import 'package:assignment4_mad/hero.dart';
 import 'package:assignment4_mad/row.dart';
 import 'package:assignment4_mad/switch_checkbox_widgets.dart';
+import 'package:assignment4_mad/tabbar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HeroWidget()
+      home: TabBarWidget()
       /*TodosScreen(
         todo: List.generate(
           20,
